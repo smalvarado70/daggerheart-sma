@@ -1,0 +1,30 @@
+<form class="daggerheart-sheet" autocomplete="off">
+  <header class="sheet-header">
+    <h1><input name="name" type="text" value="{{actor.name}}" placeholder="Character Name"/></h1>
+  </header>
+
+  <section class="sheet-body">
+    <div class="grid">
+      <div>
+        <label>Hope</label>
+        <input type="number" name="system.hope" value="{{system.hope}}" />
+      </div>
+      <div>
+        <label>Fear</label>
+        <input type="number" name="system.fear" value="{{system.fear}}" />
+      </div>
+      <div>
+        <label>HP</label>
+        <input type="number" name="system.hp" value="{{system.hp}}" />
+      </div>
+      <div>
+        <label>Traits</label>
+        <textarea name="system.traits">{{system.traits}}</textarea>
+      </div>
+      <div>
+        <label>Actions</label>
+        <textarea name="system.actions">{{system.actions}}</textarea>
+      </div>
+    </div>
+  </section>
+</form>

@@ -1,0 +1,25 @@
+{
+  "name": "daggerheart",
+  "title": "Daggerheart Vibes",
+  "version": "0.1.0",
+  "minimumCoreVersion": "13",
+  "compatibleCoreVersion": "13",
+  "author": "Scott Alvarado",
+  "description": "Barebones Daggerheart system for Foundry VTT.",
+  "scripts": ["module/daggerheart.js"],
+  "styles": ["module/styles.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "system": {
+    "actors": {
+      "types": ["character"]
+    }
+  },
+  "gridDistance": 5,
+  "gridUnits": "ft"
+}
